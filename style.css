@@ -37,16 +37,29 @@ h1 {
 
 .main-container {
   display: flex;
+  justify-content: space-between;
 }
 
 #evaluation-form {
-  display: flex;
-  width: 675px;
-  flex-direction: column;
   border: 1px solid red;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 675px;
 }
+
+/* #evaluation-form input {
+  width: 250px;
+  margin-right: 5%;
+}
+
+#evaluation-form select {
+  width: 250px;
+  margin-right: 5%;
+} */
 
 
 #trybewarts-forms-logo {
   height: 500px;
 }
+

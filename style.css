@@ -43,10 +43,10 @@ h1 {
   display: flex;
   width: 675px;
   flex-direction: column;
-
+  border: 1px solid red;
 }
+
 
 #trybewarts-forms-logo {
   height: 500px;
-
 }

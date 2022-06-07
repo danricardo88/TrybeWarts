@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TrybeWarts</title>
-  <script src="script.js" defer></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <img src="./images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="trybewarts">
-    <h1>TrybeWarts</h1>
-    <form  GET class="trybewarts-login">
-      <input id="email-login" type="email" name="Email" placeholder="Email">
-      <input id="password-login" type="password" name="password" placeholder="Senha">
-      <button id="button-login">Entrar</button>
-    </form>
-  </header>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrybeWarts</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./images/trybewarts-header-logo.svg"
+        class="trybewarts-header-logo"
+        alt="trybewarts"
+      />
+      <h1>TrybeWarts</h1>
+      <form class="trybewarts-login" method="get">
+        <input name="email" placeholder="Email" type="email" id="email-login" />
+        <input
+          name="password"
+          type="password"
+          placeholder="Senha"
+          id="password-login"
+        />
+        <button id="button-login">Entrar</button>
+      </form>
+    </header>
+  </body>
 </html>

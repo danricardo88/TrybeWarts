@@ -6,11 +6,20 @@
 
 body {
   background-color: grey;
-
 }
 
-header .header {
-  background-color: rgb (50, 167, 145);
+header {
+  background-color: rgb(50, 167, 145);
   display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
 
+h1 {
+  color: white;
+}
+
+.trybewarts-header-logo {
+  width: 100px;
 }

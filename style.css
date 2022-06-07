@@ -34,3 +34,18 @@ h1 {
   color: white;
   background-color: rgb(63, 63, 63);
 }
+
+.main-container {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}

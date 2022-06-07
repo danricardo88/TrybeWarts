@@ -2,6 +2,7 @@ const emailLogin = document.querySelector('#email-login');
 const passwordLogin = document.querySelector('#password-login');
 const buttonLogin = document.querySelector('#button-login');
 
+// validation
 function validadeEmail() {
   const email = emailLogin.input;
   console.log(email);
@@ -21,7 +22,7 @@ function validadePassord() {
 function returnLogin() {
   if (validadeEmail() && validadePassord()) {
     return alert('Olá Tryber!');
-  } return alert('Email ou senha inválidos');
+  } return alert('Email ou senha inválidos!');
 }
 
 buttonLogin.addEventListener('click', returnLogin());

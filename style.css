@@ -55,7 +55,6 @@ h1 {
 }
 
 #evaluation-form {
-  border: 1px solid red;
   display: flex;
   flex-flow: column;
   align-items: flex-start;

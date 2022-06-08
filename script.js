@@ -3,8 +3,7 @@ const passwordLogin = document.querySelector('#password-login');
 const buttonLogin = document.querySelector('#button-login');
 const idAgreement = document.querySelector('#agreement');
 const submitBtn = document.querySelector('#submit-btn');
-/* const textArea = document.querySelector('#text-area'); */
-/* const counter = document.getElementById('#counter'); */
+const textArea = document.querySelector('#text-area');
 
 // validation
 function returnLogin() {
@@ -29,8 +28,12 @@ idAgreement.addEventListener('click', (event) => {
 
 // counter textArea
 
-/* textArea.addEventListener('keyup', () => {
-let countdown = 500;
-textArea.input += 1;
-countdown = countdown - textArea.input;
-}); */
+const countText = () => {
+  const countdown = 500;
+  const counter = document.getElementById('counter');
+  const totalCharacters = textArea.value.length;
+  const counting = countdown - totalCharacters;
+  counter.innerHTML = counting;
+};
+
+textArea.addEventListener('keyup', countText);

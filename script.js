@@ -2,8 +2,8 @@ const emailLogin = document.querySelector('#email-login');
 const passwordLogin = document.querySelector('#password-login');
 const buttonLogin = document.querySelector('#button-login');
 const idAgreement = document.querySelector('#agreement');
-const submitBtn = document.querySelector('#submit-btn');
 const textArea = document.querySelector('#textarea');
+const submitBtn = document.querySelector('#submit-btn');
 
 // validation
 function returnLogin() {
@@ -37,3 +37,11 @@ const countText = () => {
 };
 
 textArea.addEventListener('keyup', countText);
+
+// submit Q21
+const cleanText = document.querySelector('#hide-all');
+
+submitBtn.addEventListener('click', (event) => {
+  cleanText.className = 'hideAll';
+  event.preventDefault();
+});

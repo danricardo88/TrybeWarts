@@ -157,3 +157,7 @@ h1 {
 #counter {
   margin: 0%;
 }
+
+.hideAll {
+  display: none;
+}

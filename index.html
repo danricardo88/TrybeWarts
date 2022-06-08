@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TrybeWarts</title>
     <script src="script.js" defer></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -30,28 +37,63 @@
     <main class="main-container">
       <form id="evaluation-form">
         <div id="input-select">
-      <input type="text" id="input-name" placeholder="Nome">
-      <input type="text" id="input-lastname" placeholder="Sobrenome">
-      <input type="text" id="input-email" placeholder="Email">
-        <select name="house" id="house">
-          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-          <option value="Corvinode" id="corvinode-house">Corvinode</option>
-          <option value="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
+          <input type="text" id="input-name" placeholder="Nome" />
+          <input type="text" id="input-lastname" placeholder="Sobrenome" />
+          <input type="text" id="input-email" placeholder="Email" />
+          <select name="house" id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
         </div>
-        <span id="radio-input">
-          <label for="" id="label-family">Qual sua família?</label>
-          <label class="rd" for="family">Frontend</label>
-          <input type="radio" name="family" value="Frontend" id="Frontend">
-          <label class="rd" for="family">Backend</label>
-          <input type="radio" name="family" value="Backend" id="Backend">
-          <label id="rd" for="family">FullStack</label>
-          <input type="radio" name="family" id="FullStack" value="FullStack">
-        </span>
-
+        <div id="back-menu">
+          <span id="radio-input">
+            <label for="" id="label-family">Qual sua família?</label>
+            <label class="rd" for="family">Frontend</label>
+            <input type="radio" name="family" value="Frontend" id="Frontend" />
+            <label class="rd" for="family">Backend</label>
+            <input type="radio" name="family" value="Backend" id="Backend" />
+            <label id="rd" for="family">FullStack</label>
+            <input
+              type="radio"
+              name="family"
+              id="FullStack"
+              value="FullStack"
+            />
+          </span>
+          <span id="checkbox-label">
+            <label for="label-content" id="label-content"
+              >Qual conteúdo você está com mais vontade de aprender?</label
+            >
+            <label class="label-checkbox" for="">HoFs</label>
+            <input type="checkbox" name="HoFs" class="subject" value="HoFs" />
+            <label class="label-checkbox" for="">Jest</label>
+            <input type="checkbox" name="HoFs" class="subject" value="Jest" />
+            <label class="label-checkbox" for="">Promises</label>
+            <input
+              type="checkbox"
+              name="HoFs"
+              class="subject"
+              value="Promises"
+            />
+            <label class="label-checkbox" for="">React</label>
+            <input type="checkbox" name="HoFs" class="subject" value="React" />
+            <label class="label-checkbox" for="">SQL</label>
+            <input type="checkbox" name="HoFs" class="subject" value="SQL" />
+            <label class="label-checkbox" for="">Python</label>
+            <input type="checkbox" name="HoFs" class="subject" value="Python" />
+          </span>
+          <span>
+            
+          </span>
+        </div>
       </form>
-      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="trybewarts">
+      <img
+        id="trybewarts-forms-logo"
+        src="images/trybewarts-colored.svg"
+        alt="trybewarts"
+      />
     </main>
     <footer id="footer">
       <h3>Direitos reservados à Trybewarts©</h3>

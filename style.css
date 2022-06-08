@@ -111,3 +111,22 @@ h1 {
   padding: 0%;
 }
 
+#rate-note {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#rate-note label {
+  margin: 0%;
+  padding: 0%;
+  width: 20px;
+  display: inline-block;
+}
+
+#rate-note input {
+  display: inline-block;
+  width: min-content;
+  margin: 0%;
+  padding: 0%;
+}

@@ -130,3 +130,8 @@ h1 {
   margin: 0%;
   padding: 0%;
 }
+
+#text-review {
+  margin-bottom: 20px;
+  resize: none;
+}

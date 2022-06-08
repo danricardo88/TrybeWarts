@@ -1,8 +1,8 @@
 const emailLogin = document.querySelector('#email-login');
 const passwordLogin = document.querySelector('#password-login');
 const buttonLogin = document.querySelector('#button-login');
-/* const idAgreement = document.querySelector('#agreement');
-const submitBtn = document.querySelector('#submit-btn'); */
+const idAgreement = document.querySelector('#agreement');
+const submitBtn = document.querySelector('#submit-btn');
 
 // validation
 function returnLogin() {
@@ -14,3 +14,13 @@ function returnLogin() {
   } else alert('Email ou senha inválidos.');
 }
 buttonLogin.addEventListener('click', returnLogin);
+
+// preventDefault function
+
+idAgreement.addEventListener('click', (event) => {
+  if (!idAgreement.checked) {
+    event.preventDefault();
+  } else {
+    submitBtn.disabled = false;
+  }
+});

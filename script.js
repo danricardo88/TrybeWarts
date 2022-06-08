@@ -3,6 +3,8 @@ const passwordLogin = document.querySelector('#password-login');
 const buttonLogin = document.querySelector('#button-login');
 const idAgreement = document.querySelector('#agreement');
 const submitBtn = document.querySelector('#submit-btn');
+/* const textArea = document.querySelector('#text-area'); */
+/* const counter = document.getElementById('#counter'); */
 
 // validation
 function returnLogin() {
@@ -24,3 +26,11 @@ idAgreement.addEventListener('click', (event) => {
     submitBtn.disabled = false;
   }
 });
+
+// counter textArea
+
+/* textArea.addEventListener('keyup', () => {
+let countdown = 500;
+textArea.input += 1;
+countdown = countdown - textArea.input;
+}); */

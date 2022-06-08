@@ -146,6 +146,15 @@ h1 {
   padding: 0%;
 }
 
+#text-counter {
+  display: flex;
+  align-items: center;
+}
+
 #div-agreed {
   display: flex;
+}
+
+#counter {
+  margin: 0%;
 }

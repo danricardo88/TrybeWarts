@@ -108,8 +108,11 @@
           <input type="radio" name="rate" value="10">
           <label for="rate">10</label>
         </span>
-        <label class="textarea" for="text-review">Deixe seu comentário:</label>
-        <textarea name="review" id="text-review" cols="25" rows="7" maxlength="500"></textarea>
+        <label class="textarea" for="text-area">Deixe seu comentário:</label>
+        <div id="text-counter">
+        <textarea name="review" id="text-area" cols="25" rows="7" maxlength="500"></textarea>
+        <span id="counter">500</span>
+        </div>
         <div id="div-agreed">
         <input type="checkbox" name="agreement" id="agreement" required>
         <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>

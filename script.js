@@ -1,6 +1,8 @@
 const emailLogin = document.querySelector('#email-login');
 const passwordLogin = document.querySelector('#password-login');
 const buttonLogin = document.querySelector('#button-login');
+/* const idAgreement = document.querySelector('#agreement');
+const submitBtn = document.querySelector('#submit-btn'); */
 
 // validation
 function returnLogin() {

@@ -118,3 +118,4 @@ submitBtn.addEventListener('click', (event) => {
   selectEvaluation();
   textAreaInformation();
 });
+

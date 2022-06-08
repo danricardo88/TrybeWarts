@@ -119,3 +119,4 @@ submitBtn.addEventListener('click', (event) => {
   textAreaInformation();
 });
 
+/*.*/

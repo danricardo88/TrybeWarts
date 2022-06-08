@@ -44,7 +44,8 @@ h1 {
   border: 1px solid red;
   display: flex;
   flex-flow: column;
-  align-items: center;
+  align-items: flex-start;
+  gap: 10px;
   width: 675px;
 }
 
@@ -63,3 +64,26 @@ h1 {
   height: 500px;
 }
 
+#radio-label {
+  margin-top: 5%;
+}
+
+#input-select {
+  margin-left: 10%;
+}
+
+#radio-input {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-flow: column;
+  border: 1px solid black;
+  text-align: left;
+}
+
+#radio-input input {
+  width: 10%;
+  height: 5%;
+  padding: 0%;
+  margin: 0%;
+}

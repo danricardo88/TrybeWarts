@@ -36,6 +36,7 @@
     </header>
     <main class="main-container">
       <form id="evaluation-form">
+        <span id="hide-all">
         <div id="input-select">
           <input type="text" id="input-name" placeholder="Nome" />
           <input type="text" id="input-lastname" placeholder="Sobrenome" />
@@ -108,9 +109,9 @@
           <input type="radio" name="rate" value="10">
           <label for="rate">10</label>
         </span>
-        <label class="textarea" for="text-area">Deixe seu comentário:</label>
         <div id="text-counter">
-        <textarea name="review" id="text-area" cols="25" rows="7" maxlength="500"></textarea>
+          <label class="textarea" for="textarea">Deixe seu comentário:</label>
+        <textarea name="review" id="textarea" cols="25" rows="7" maxlength="500"></textarea>
         <span id="counter">500</span>
         </div>
         <div id="div-agreed">
@@ -118,6 +119,7 @@
         <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
         </div>
         <button type="submit" id="submit-btn" disabled>Enviar</button>
+      </span>
       </form>
       <img
         id="trybewarts-forms-logo"

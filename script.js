@@ -3,7 +3,7 @@ const passwordLogin = document.querySelector('#password-login');
 const buttonLogin = document.querySelector('#button-login');
 const idAgreement = document.querySelector('#agreement');
 const submitBtn = document.querySelector('#submit-btn');
-const textArea = document.querySelector('#text-area');
+const textArea = document.querySelector('#textarea');
 
 // validation
 function returnLogin() {

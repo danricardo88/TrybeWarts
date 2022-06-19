@@ -27,12 +27,6 @@ h1 {
   padding: 0%;
 }
 
-#radio-input input {
-  width: 10%;
-  height: 5%;
-  padding: 0%;
-  margin: 0%;
-}
 
 .trybewarts-header-logo {
   width: 100px;
@@ -54,12 +48,19 @@ h1 {
   justify-content: space-between;
 }
 
+
 #evaluation-form {
   display: flex;
   flex-flow: column;
   align-items: flex-start;
   gap: 10px;
   width: 675px;
+}
+
+#radio-input {
+  display: flex;
+  flex-flow: column;
+  width: 319px;
 }
 
 #evaluation-form #input-select input {
@@ -84,14 +85,6 @@ h1 {
   margin-left: 10%;
 }
 
-#radio-input {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  flex-flow: column;
-  text-align: left;
-}
-
 #back-menu {
   display: flex;
   justify-content: space-between;
@@ -99,14 +92,8 @@ h1 {
 
 #checkbox-label {
   display: flex;
-  flex-flow: column nowrap;
-}
-
-#checkbox-label .subject {
-  margin: 0%;
-  padding: 0%;
-  width: 20px;
-  display: inline-block;
+  flex-flow: column;
+  width: 350px;
 }
 
 .label-checkbox {
@@ -160,4 +147,15 @@ h1 {
 
 #form-data {
   display: none;
+}
+
+.houses {
+  text-align: center;
+  text-decoration-line: none;
+}
+
+#checkbox-label .label-checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
 }
